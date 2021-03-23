@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		99E9A43625FB030C008984EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9A43525FB030C008984EF /* AppDelegate.swift */; };
 		99E9A43825FB030C008984EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9A43725FB030C008984EF /* SceneDelegate.swift */; };
-		99E9A43A25FB030C008984EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9A43925FB030C008984EF /* ViewController.swift */; };
+		99E9A43A25FB030C008984EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9A43925FB030C008984EF /* LoginViewController.swift */; };
 		99E9A43D25FB030C008984EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E9A43B25FB030C008984EF /* Main.storyboard */; };
 		99E9A43F25FB030C008984EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E9A43E25FB030C008984EF /* Assets.xcassets */; };
 		99E9A44225FB030C008984EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E9A44025FB030C008984EF /* LaunchScreen.storyboard */; };
 		99E9A44D25FB030C008984EF /* fraternityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9A44C25FB030C008984EF /* fraternityTests.swift */; };
 		99E9A45825FB030C008984EF /* fraternityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9A45725FB030C008984EF /* fraternityUITests.swift */; };
+		99F2A5922607F13100025FED /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 99F2A5912607F13100025FED /* Localizable.stringsdict */; };
+		99F2A5952607F15000025FED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99F2A5972607F15000025FED /* Localizable.strings */; };
+		99F2A59B260A367400025FED /* FraternityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2A59A260A367400025FED /* FraternityViewController.swift */; };
+		99F2A59D260A370A00025FED /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2A59C260A370A00025FED /* BooksViewController.swift */; };
+		99F2A59F260A37A100025FED /* CoachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2A59E260A37A100025FED /* CoachingViewController.swift */; };
+		99F2A5A1260A37D400025FED /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2A5A0260A37D400025FED /* GroupsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99E9A43225FB030C008984EF /* fraternity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fraternity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E9A43225FB030C008984EF /* DSO Fraternity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSO Fraternity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E9A43525FB030C008984EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E9A43725FB030C008984EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99E9A43925FB030C008984EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99E9A43925FB030C008984EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		99E9A43C25FB030C008984EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99E9A43E25FB030C008984EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99E9A44125FB030C008984EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		99E9A45325FB030C008984EF /* fraternityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fraternityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E9A45725FB030C008984EF /* fraternityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fraternityUITests.swift; sourceTree = "<group>"; };
 		99E9A45925FB030C008984EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F2A5912607F13100025FED /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
+		99F2A5962607F15000025FED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99F2A59A260A367400025FED /* FraternityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraternityViewController.swift; sourceTree = "<group>"; };
+		99F2A59C260A370A00025FED /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		99F2A59E260A37A100025FED /* CoachingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingViewController.swift; sourceTree = "<group>"; };
+		99F2A5A0260A37D400025FED /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +101,7 @@
 		99E9A43325FB030C008984EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99E9A43225FB030C008984EF /* fraternity.app */,
+				99E9A43225FB030C008984EF /* DSO Fraternity.app */,
 				99E9A44825FB030C008984EF /* fraternityTests.xctest */,
 				99E9A45325FB030C008984EF /* fraternityUITests.xctest */,
 			);
@@ -101,11 +113,17 @@
 			children = (
 				99E9A43525FB030C008984EF /* AppDelegate.swift */,
 				99E9A43725FB030C008984EF /* SceneDelegate.swift */,
-				99E9A43925FB030C008984EF /* ViewController.swift */,
+				99E9A43925FB030C008984EF /* LoginViewController.swift */,
+				99F2A59C260A370A00025FED /* BooksViewController.swift */,
+				99F2A59A260A367400025FED /* FraternityViewController.swift */,
+				99F2A59E260A37A100025FED /* CoachingViewController.swift */,
+				99F2A5A0260A37D400025FED /* GroupsViewController.swift */,
 				99E9A43B25FB030C008984EF /* Main.storyboard */,
 				99E9A43E25FB030C008984EF /* Assets.xcassets */,
 				99E9A44025FB030C008984EF /* LaunchScreen.storyboard */,
 				99E9A44325FB030C008984EF /* Info.plist */,
+				99F2A5912607F13100025FED /* Localizable.stringsdict */,
+				99F2A5972607F15000025FED /* Localizable.strings */,
 			);
 			path = fraternity;
 			sourceTree = "<group>";
@@ -145,7 +163,7 @@
 			);
 			name = fraternity;
 			productName = fraternity;
-			productReference = 99E9A43225FB030C008984EF /* fraternity.app */;
+			productReference = 99E9A43225FB030C008984EF /* DSO Fraternity.app */;
 			productType = "com.apple.product-type.application";
 		};
 		99E9A44725FB030C008984EF /* fraternityTests */ = {
@@ -232,7 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F2A5952607F15000025FED /* Localizable.strings in Resources */,
 				99E9A44225FB030C008984EF /* LaunchScreen.storyboard in Resources */,
+				99F2A5922607F13100025FED /* Localizable.stringsdict in Resources */,
 				99E9A43F25FB030C008984EF /* Assets.xcassets in Resources */,
 				99E9A43D25FB030C008984EF /* Main.storyboard in Resources */,
 			);
@@ -259,7 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E9A43A25FB030C008984EF /* ViewController.swift in Sources */,
+				99F2A5A1260A37D400025FED /* GroupsViewController.swift in Sources */,
+				99F2A59D260A370A00025FED /* BooksViewController.swift in Sources */,
+				99F2A59B260A367400025FED /* FraternityViewController.swift in Sources */,
+				99F2A59F260A37A100025FED /* CoachingViewController.swift in Sources */,
+				99E9A43A25FB030C008984EF /* LoginViewController.swift in Sources */,
 				99E9A43625FB030C008984EF /* AppDelegate.swift in Sources */,
 				99E9A43825FB030C008984EF /* SceneDelegate.swift in Sources */,
 			);
@@ -311,6 +335,14 @@
 				99E9A44125FB030C008984EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99F2A5972607F15000025FED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F2A5962607F15000025FED /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -442,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dadstartingover.fraternity;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DSO Fraternity";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dadstartingover.fraternity;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DSO Fraternity";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
